@@ -1,0 +1,19 @@
+clear;
+close all;
+
+open("Signals");
+U=1; a=1; T=2.5;
+
+grid on;
+plot(gCos(U,a,-T,T),LineWidth=5);
+hold on;
+plot(gSin(U,a,-T,T),LineWidth=5);
+hold on;
+plot(gEXP(U,a,-T,T),LineWidth=5);
+hold on;
+plot(gGAUS(U,a,-T,T),LineWidth=5);
+hold on;
+plot(gC(U,a,-T,T),LineWidth=5);
+hold on;
+plot(gSin(U,a,-T,T),LineWidth=5);
+hold on;
