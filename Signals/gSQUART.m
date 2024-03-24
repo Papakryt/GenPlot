@@ -1,5 +1,5 @@
 function st=gSQUART(U,T);
-t1=-T:0.1:-T/2;
+t1=-T-0.1:0.1:-T/2;
 t2=-T/2+0.1:0.1:T/2;
 t3=T/2+0.1:0.1:T;
 st1=zeros(size(t1));
